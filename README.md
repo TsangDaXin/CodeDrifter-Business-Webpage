@@ -11,13 +11,9 @@
 ## 🌐 Business Webpage & Demo  
 
 This GitHub repository also serves as the **official business webpage and live demo** for the **CodeDrifter browser extension**.  
+* Just prototype design - hasn't integrate backend yet*
 
 👉 Check it out here: [CodeDrifter GitHub](https://github.com/TsangDaXin/codeDrifter)  
-
----
-
-**CodeDrifter** makes documentation **effortless, accurate, and always up to date**.  
-No more stale docs. No more onboarding nightmares. Just clean, living documentation that evolves with your code.  
 
 ---
 
@@ -85,19 +81,84 @@ This causes **onboarding delays, wasted time, and bugs**.
 
 ---
 
-## 📸 Demo  
+## 🛠️ Setup Guide  
 
-📝 Smart Doc Writer in action  
-🔄 Doc Drift Detector catching mismatches  
-🤖 Q&A chatbot answering real-time queries  
-📊 UML & Flowchart auto-generation  
+### 2️⃣ Install Dependencies  
 
-![Demo Screenshot Placeholder](./demo-screenshot.png)  
-*(Replace with actual screenshot or GIF of the extension in action)*  
+**Using Bun:**  
+<pre>
+bun install
+</pre>  
+
+**Using npm:**  
+<pre>
+npm install
+</pre>  
 
 ---
 
+### 3️⃣ Start Development Server  
+
+**Using Bun:**  
+<pre>
+bun run dev
+</pre>  
+
+**Using npm:**  
+<pre>
+npm run dev
+</pre>  
+
+---
+
+### 4️⃣ Open in Browser  
+
+The dev server runs at:  
+👉 [http://localhost:5173](http://localhost:5173)  
+
+---
+
+## 📸 Demo  
+### Front Page
+<img width="1424" height="885" alt="t1" src="https://github.com/user-attachments/assets/9580d6b0-f2b6-4179-96cd-b145e8db2c30" />
+<img width="1518" height="922" alt="t2" src="https://github.com/user-attachments/assets/e97a9693-596b-4bc9-a88e-63f7ef48ee1f" />
+<img width="1562" height="742" alt="t3" src="https://github.com/user-attachments/assets/d12c5b90-3cfa-4583-92a7-84c94abf6c61" />
+
+### Security Page
+<img width="1403" height="917" alt="t4" src="https://github.com/user-attachments/assets/8ac349dc-f1c9-4c05-baaf-a59b5b8d417b" />
+<img width="1304" height="914" alt="t5" src="https://github.com/user-attachments/assets/cf29accb-4a57-4ff8-a3e2-23c677997236" />
+
+### Notebook subpage
+<img width="1436" height="925" alt="t6" src="https://github.com/user-attachments/assets/1699ddd6-8699-4246-a7f3-e82fd72bedca" />
+
+### Other subpage
+<img width="1235" height="441" alt="t7" src="https://github.com/user-attachments/assets/c8ed5278-1a30-4fda-8bb9-46b2e7aa2c8a" />
+<img width="1208" height="393" alt="t8" src="https://github.com/user-attachments/assets/863ecfed-4c81-48c2-b939-b0bfb6d40bb2" />
+<img width="1254" height="397" alt="t9" src="https://github.com/user-attachments/assets/e06c43b5-ea34-4e7e-8e4a-3fc3885a3c94" />
+
+---
 ## 🤝 Contributors  
 
-We welcome contributions from the community! 🚀  
-Check out the [issues](https://github.com/TsangDaXin/codeDrifter/issues) page to get started.  
+Introducing **Team DELAY** 🚀  
+
+| Name        | Role       | GitHub |
+|-------------|------------|--------|
+| Owen Tsang  | Developer  | [@TsangDaXin](https://github.com/TsangDaXin) |
+| Tan Lok Qi  | Developer  | [@lennardtan]([https://github.com/lennardtan) |
+| Chun Kit    | Developer  | [@delaynomore-png](https://github.com/delaynomore-png) |
+| Wai Hong    | Developer  | [@WAIHONGGR](https://github.com/WAIHONGGR) |
+
+---
+## 📄 License  
+
+This project is licensed under the **MIT License** – see the [LICENSE](./LICENSE) file for details.  
+
+---
+
+## 🤲 Contributing  
+
+Contributions are welcome! Please check out our [CONTRIBUTING.md](./CONTRIBUTING.md) for guidelines.  
+
+---
+
+💡 *Docs shouldn’t slow you down — let’s make them smarter, together.*  
