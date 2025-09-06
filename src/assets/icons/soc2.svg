@@ -1,0 +1,5 @@
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="8" fill="#1E40AF"/>
+  <path d="M24 8C17.372 8 12 13.372 12 20v4c-2.21 0-4 1.79-4 4v12c0 2.21 1.79 4 4 4h24c2.21 0 4-1.79 4-4V28c0-2.21-1.79-4-4-4v-4c0-6.628-5.372-12-12-12zm0 4c4.418 0 8 3.582 8 8v4H16v-4c0-4.418 3.582-8 8-8z" fill="white"/>
+  <text x="24" y="37" text-anchor="middle" fill="white" font-family="Arial" font-size="6" font-weight="bold">SOC 2</text>
+</svg>

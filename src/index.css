@@ -1,0 +1,285 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* CodeDrifer SaaS Design System - Modern Purple Theme 2025 */
+
+@layer base {
+  :root {
+    /* Dark theme base colors */
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    
+    /* Card system */
+    --card: 240 10% 8%;
+    --card-foreground: 0 0% 98%;
+    --card-glow: 267 57% 50%;
+    
+    /* Primary brand colors - Vibrant Purple */
+    --primary: 267 57% 60%;
+    --primary-foreground: 240 10% 3.9%;
+    --primary-glow: 267 100% 70%;
+    
+    /* Secondary - Dark Purple accents */
+    --secondary: 240 10% 12%;
+    --secondary-foreground: 0 0% 98%;
+    --secondary-glow: 267 100% 85%;
+    
+    /* Accent - Bright Purple */
+    --accent: 262 83% 68%;
+    --accent-foreground: 240 10% 3.9%;
+    --accent-glow: 262 83% 80%;
+    
+    /* Muted variants */
+    --muted: 240 10% 12%;
+    --muted-foreground: 240 5% 64.9%;
+    
+    /* UI elements */
+    --border: 240 10% 15%;
+    --input: 240 10% 12%;
+    --ring: 267 57% 60%;
+    
+    /* Destructive */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(267 57% 60%) 0%, hsl(262 83% 68%) 100%);
+    --gradient-secondary: linear-gradient(135deg, hsl(240 10% 12%) 0%, hsl(267 100% 15%) 100%);
+    --gradient-hero: linear-gradient(135deg, hsl(240 10% 3.9%) 0%, hsl(240 10% 8%) 50%, hsl(267 57% 10%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(240 10% 8%) 0%, hsl(240 10% 12%) 100%);
+    
+    /* Shadows and glows */
+    --shadow-glow: 0 0 20px hsl(267 57% 60% / 0.4);
+    --shadow-glow-lg: 0 0 40px hsl(267 57% 60% / 0.5);
+    --shadow-card: 0 4px 20px hsl(240 10% 3.9% / 0.5);
+    --shadow-hero: 0 8px 40px hsl(267 57% 60% / 0.3);
+    
+    /* Animations */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-fast: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    
+    --radius: 12px;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    background: hsl(var(--background));
+    color: hsl(var(--foreground));
+    scroll-behavior: smooth;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Glow effects */
+  .glow-primary {
+    box-shadow: var(--shadow-glow);
+  }
+  
+  .glow-primary-lg {
+    box-shadow: var(--shadow-glow-lg);
+  }
+  
+  .glow-card {
+    box-shadow: var(--shadow-card);
+  }
+  
+  /* Gradient backgrounds */
+  .bg-gradient-primary {
+    background: var(--gradient-primary);
+  }
+  
+  .bg-gradient-secondary {
+    background: var(--gradient-secondary);
+  }
+  
+  .bg-gradient-hero {
+    background: var(--gradient-hero);
+  }
+  
+  .bg-gradient-card {
+    background: var(--gradient-card);
+  }
+  
+  /* Interactive elements */
+  .interactive-glow {
+    transition: var(--transition-smooth);
+  }
+  
+  .interactive-glow:hover {
+    box-shadow: var(--shadow-glow-lg);
+    transform: translateY(-2px);
+  }
+  
+  /* Animated gradients */
+  .animated-gradient {
+    background-size: 200% 200%;
+    animation: gradient-shift 3s ease infinite;
+  }
+  
+  @keyframes gradient-shift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+  
+  /* Pulse glow animation */
+  .pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite alternate;
+  }
+  
+  @keyframes pulse-glow {
+    from {
+      box-shadow: 0 0 20px hsl(267 57% 60% / 0.4);
+    }
+    to {
+      box-shadow: 0 0 40px hsl(267 57% 60% / 0.7);
+    }
+  }
+  
+  /* Scroll animations */
+  .scroll-reveal {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .scroll-reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* Micro-interactions */
+  .interactive-element {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .interactive-element:hover {
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-glow-lg);
+  }
+  
+  /* 3D effects */
+  .card-3d {
+    transform-style: preserve-3d;
+    perspective: 1000px;
+  }
+  
+  .card-3d:hover {
+    transform: rotateX(5deg) rotateY(5deg);
+  }
+  
+  /* Sticky navigation */
+  .sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    backdrop-filter: blur(12px);
+    background: hsl(var(--background) / 0.8);
+    transition: all 0.3s ease;
+  }
+  
+  /* Loading animations */
+  .loading-dots {
+    animation: loading-dots 1.5s infinite ease-in-out;
+  }
+  
+  @keyframes loading-dots {
+    0%, 20% { opacity: 0; }
+    50% { opacity: 1; }
+    80%, 100% { opacity: 0; }
+  }
+  
+  /* Fade in animations */
+  .fade-in {
+    animation: fade-in 0.8s ease-out;
+  }
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Scale in animations */
+  .scale-in {
+    animation: scale-in 0.6s ease-out;
+  }
+  
+  @keyframes scale-in {
+    from {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  /* Expand width animation for underlines */
+  @keyframes expand-width {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+
+  /* Smooth carousel transitions */
+  .carousel-smooth {
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* Dropdown animations */
+  .dropdown-enter {
+    animation: dropdown-enter 0.2s ease-out;
+  }
+
+  @keyframes dropdown-enter {
+    from {
+      opacity: 0;
+      transform: translateY(-10px) scale(0.95);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  /* Logo hover effects */
+  .logo-hover {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .logo-hover:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

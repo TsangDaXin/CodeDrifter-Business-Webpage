@@ -1,0 +1,6 @@
+<svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="48" height="48" rx="8" fill="#DC2626"/>
+  <path d="M16 16L32 16L24 32L16 16Z" fill="white"/>
+  <circle cx="24" cy="20" r="2" fill="#DC2626"/>
+  <text x="24" y="42" text-anchor="middle" fill="white" font-family="Arial" font-size="4" font-weight="bold">TX-RAMP</text>
+</svg>
