@@ -123,6 +123,9 @@ The dev server runs at:
 <img width="1424" height="885" alt="t1" src="https://github.com/user-attachments/assets/9580d6b0-f2b6-4179-96cd-b145e8db2c30" />
 <img width="1518" height="922" alt="t2" src="https://github.com/user-attachments/assets/e97a9693-596b-4bc9-a88e-63f7ef48ee1f" />
 <img width="1562" height="742" alt="t3" src="https://github.com/user-attachments/assets/d12c5b90-3cfa-4583-92a7-84c94abf6c61" />
+<img width="1273" height="763" alt="t20" src="https://github.com/user-attachments/assets/75947b77-1257-4fe2-9e38-70e78316206f" />
+<img width="1478" height="917" alt="t21" src="https://github.com/user-attachments/assets/0753fd51-82a2-4a94-8354-ac2b202ce404" />
+
 
 ### Security Page
 <img width="1403" height="917" alt="t4" src="https://github.com/user-attachments/assets/8ac349dc-f1c9-4c05-baaf-a59b5b8d417b" />
@@ -136,6 +139,7 @@ The dev server runs at:
 <img width="1208" height="393" alt="t8" src="https://github.com/user-attachments/assets/863ecfed-4c81-48c2-b939-b0bfb6d40bb2" />
 <img width="1254" height="397" alt="t9" src="https://github.com/user-attachments/assets/e06c43b5-ea34-4e7e-8e4a-3fc3885a3c94" />
 
+*will integrate when official deploy !*
 ---
 ## 🤝 Contributors  
 
