@@ -134,12 +134,11 @@ The dev server runs at:
 ### Notebook subpage
 <img width="1436" height="925" alt="t6" src="https://github.com/user-attachments/assets/1699ddd6-8699-4246-a7f3-e82fd72bedca" />
 
-### Other subpage
+### Other subpage - will integrate when official deploy !
 <img width="1235" height="441" alt="t7" src="https://github.com/user-attachments/assets/c8ed5278-1a30-4fda-8bb9-46b2e7aa2c8a" />
 <img width="1208" height="393" alt="t8" src="https://github.com/user-attachments/assets/863ecfed-4c81-48c2-b939-b0bfb6d40bb2" />
 <img width="1254" height="397" alt="t9" src="https://github.com/user-attachments/assets/e06c43b5-ea34-4e7e-8e4a-3fc3885a3c94" />
 
-*will integrate when official deploy !*
 ---
 ## 🤝 Contributors  
 
