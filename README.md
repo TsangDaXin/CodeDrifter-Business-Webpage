@@ -9,13 +9,21 @@
 ---
 
 ## 🌐 Business Webpage & Demo  
-
 This GitHub repository also serves as the **official business webpage and live demo** for the **CodeDrifter browser extension**.  
-* Just prototype design - hasn't integrate backend yet*
+* Just prototype design - hasn't integrated backend yet *
 
 👉 Check it out here: [CodeDrifter GitHub](https://github.com/TsangDaXin/codeDrifter)  
 
+### Additional Resources  
+- **Presentation Slides (Canva):**  
+  [View the slides](https://www.canva.com/design/DAGxueAIYCQ/PmSSEdoeJe8Hp7zVbac2dA/edit?utm_content=DAGxueAIYCQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+- **Demo Video (YouTube):**  
+  [Watch the demo](https://www.youtube.com/watch?v=AnHmQitOoqE)
+
+  
 ---
+
 
 ## 🌟 Why CodeDrifter?  
 
